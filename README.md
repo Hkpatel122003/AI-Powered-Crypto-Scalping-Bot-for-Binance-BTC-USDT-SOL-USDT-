@@ -20,7 +20,6 @@ def test_binance_connection():
     print("🧪 TEST 1: Binance Connection")
     print("="*60)
     
-    try:
         client = BinanceClient()
         
         if client.check_connection():
